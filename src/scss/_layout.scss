@@ -1,0 +1,20 @@
+.l-container {
+    margin: 0 auto;
+    max-width: 1140px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+  
+.l-container--narrow {
+    margin: 0 auto;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    max-width: 720px;
+}
+
+.l-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: var(--spacing-xl);
+}

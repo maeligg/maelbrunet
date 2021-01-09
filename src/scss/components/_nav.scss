@@ -1,0 +1,39 @@
+.c-nav {
+    margin-left: auto;
+}
+
+.c-nav__nav-list {
+    margin: var(--spacing-md) var(--spacing-md) 0 0;
+    display: flex;
+    justify-content: flex-end;
+
+    > * {
+        margin: 0 var(--spacing-sm);
+
+        @include mq(small) {
+            margin: 0 var(--spacing-md);
+        }
+    }
+
+    > *:last-of-type {
+        margin-right: 0;
+    }
+}
+
+.c-nav__nav-item {
+    position: relative;
+    font-size: var(--text-lg);
+    font-weight: bold;
+    text-decoration: none;
+
+    &.is-active::after {
+        content: "";
+        position: absolute;
+        bottom: calc(var(--spacing-md) * -1);
+        left: calc(50% - 6px);
+        background-color: currentColor;
+        height: 12px;
+        width: 12px;
+        border-radius: 50%;
+    }
+}

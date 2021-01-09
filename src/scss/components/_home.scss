@@ -1,0 +1,25 @@
+.c-home__intro {
+    @include mq(medium) {
+        margin-top: 160px;
+    }
+}
+
+.c-home__title {
+    font-size: var(--text-xxl);
+
+    @include mq(small) {
+        font-size: 7rem;
+    }
+}
+
+.c-home__subtitle {
+    margin-top: var(--spacing-xl);
+}
+
+.c-home__projects-link {
+    display: flex;
+    justify-content: center;
+    padding: var(--spacing-md);
+    font-size: var(--text-lg);
+    font-weight: bold;
+}

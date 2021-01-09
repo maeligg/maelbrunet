@@ -1,0 +1,28 @@
+.c-stripes-top, .c-stripes-bottom {
+    position: absolute;
+    fill: var(--color-grey);
+}
+
+.c-stripes-top {
+    top: -70px;
+    right: 80px;
+    transform: scaleX(-1) rotate(90deg);
+    
+    @include mq(small) {
+        top: auto;
+        right: auto;
+        left: -20px;
+        bottom: 80px;
+        transform: none;
+    }
+}
+
+.c-stripes-bottom {
+    display: none;
+    right: -20px;
+    top: 80px;
+
+    @include mq(small) {
+        display:block;
+    }
+}

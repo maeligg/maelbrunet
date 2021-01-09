@@ -1,0 +1,48 @@
+---
+layout: layouts/base
+title: 'Projects'
+---
+
+{% block content %}
+    {% set categories = [
+        {
+            name: 'website',
+            label: 'Websites & web apps'
+        },
+        {
+            name: 'bot',
+            label: 'Bots'
+        },
+        {
+            name: 'presentation',
+            label: 'Talks & presentations'
+        },
+        {
+            name: 'script',
+            label: 'Scripts & others'
+        }
+    ] %}
+
+    <p class="u-mb-lg">Jump to : {% for category in categories %}<a href="#{{ category.name }}">{{ category.label }}</a>{% if not loop.last %} - {% endif %}{% endfor %}</p>
+
+    {% for category in categories %}
+        <h2 id="{{category.name}}">{{ category.label }}</h2>
+
+        <div class="c-cards">
+            {% for project in projects %}
+                {% if project.category == category.name %}
+                    <div class="c-cards__card">
+                        <a href="{{ project.url }}" class="c-cards__card-link"><div class="u-sr-only">{{ project.name }}</div><img src="/images/project-thumbnails/{{project.thumbnail}}" alt="{{ project.title }}" class="c-cards__card-thumbnail"></a>
+                        <div class="c-cards__card-info-wrapper">
+                            <h3 class="c-cards__card-title"><a href="{{ project.url }}">{{ project.name }}</a></h3>
+                            <p class="c-cards__card-description">{{ project.description | safe }}</p>
+                            {% if project.code %}
+                                <a href="{{ project.code }}">Code</a>
+                            {% endif %}
+                        </div>
+                    </div>
+                {% endif %}
+            {% endfor %}
+        </div>
+    {% endfor %}
+{% endblock %}

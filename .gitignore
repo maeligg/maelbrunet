@@ -1,0 +1,6 @@
+node_modules
+
+// compiled stuff
+dist
+src/_includes/css/*
+src/css/*

@@ -1,0 +1,71 @@
+.c-footer {
+    margin: var(--spacing-md) 0 var(--spacing-md) 0;
+}
+
+.c-footer__social {
+    margin-bottom: var(--spacing-sm);
+    display: flex;
+    justify-content: center;
+
+    > * {
+        margin: 0 var(--spacing-xs);
+    }
+}
+
+.c-footer__social-link {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+    padding: var(--spacing-xs);
+    background-color: var(--color-light);
+    border-radius: 50%;
+
+    svg {
+        margin: 0;
+        fill: var(--color-dark);
+    }
+
+    &:hover {
+        svg {
+            fill: var(--color-primary);
+        }    
+    }
+}
+
+.c-footer__email {
+    position: relative;
+
+    &::before {
+        content: "Email copied to clipboard";
+        position: absolute;
+        top: -30px;
+        width: 200px;
+        font-size: var(--text-md);
+        text-align: center;
+        color: var(--color-dark);
+        opacity: 0;
+        transition: all ease-in-out .2s;
+    }
+
+    &.is-copied {
+        &::before {
+            top: -40px;
+            opacity: 1;
+        }
+    }
+}
+
+.c-footer__copyright {
+    font-size: var(--text-sm);
+    text-align: center;
+}
+
+.c-footer__easter-egg {
+    display: none;
+
+    @include mq(medium) {
+        display: inline;
+    }
+}

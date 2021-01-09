@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>{{ metaTitle | default(title) }} - Maël Brunet</title>
+  <meta name="description" content="{{ site.metaDescription }}">
+
+  <!-- Preload -->
+  <link rel="preload" as="font" crossorigin type="font/woff2" href="/fonts/NotoSerif-Bold.woff2">
+  <link rel="preload" as="font" crossorigin type="font/woff2" href="/fonts/NotoSerif-Regular.woff2">
+
+  <!-- CSS -->
+  <style>{% include "css/main.css" %}</style>
+
+  <!-- Twitter + Open Graph -->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:creator" content="{{ site.authorTwitter }}" />
+  <meta property="og:url" content="{{ site.url ~ page.url }}" />
+  <meta property="og:title" content="{{ metaTitle | default(title) }} - Maël Brunet" />
+  <meta property="og:description" content="{{ site.metaDescription }}" />
+  <meta property="og:image" content="{{ site.url }}{{ site.metaImage }}" />
+
+  <!-- Favicon -->
+  <link rel="icon" href="/images/favicon.ico">
+  <link rel="icon" href="/images/favicon.svg" type="image/svg+xml">
+
+  <!-- defer scripts -->
+  <script src="/main.js" defer></script>
+</head>
+
+<body>
+  <svg width="20" height="120" class="c-stripes-top">
+    <path d="M 0 20 L 20 0 L 20 20 L 0 40 Z" />
+    <path d="M 0 60 L 20 40 L 20 60 L 0 80 Z"/>
+    <path d="M 0 100 L 20 80 L 20 100 L 0 120 Z" />
+  </svg>
+
+  {% include "partials/header.njk" %}
+
+  {% block content %}
+    <main>
+      <div class="l-container">
+        <h1>{{title}}</h1>
+        {{content | safe}}
+      </div>
+    </main>
+  {% endblock content %}
+  
+  {% include "partials/footer.njk" %}
+
+  {% block foot %}{% endblock %}
+
+  <svg width="20" height="120" class="c-stripes-bottom">
+    <path d="M 0 20 L 20 0 L 20 20 L 0 40 Z" />
+    <path d="M 0 60 L 20 40 L 20 60 L 0 80 Z" />
+    <path d="M 0 100 L 20 80 L 20 100 L 0 120 Z" />
+  </svg>
+</body>
+</html>

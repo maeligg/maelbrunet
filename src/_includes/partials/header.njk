@@ -1,0 +1,17 @@
+<header class="l-header">
+  <a class="c-logo" href='/'>
+    <span class="c-logo__bracket">{</span>
+    mb
+    <span class="c-logo__bracket">}</span>
+  </a>
+
+  <nav class="c-nav">
+    <ul class="c-nav__nav-list">
+      {% for item in nav %}
+        <li>
+          <a class="c-nav__nav-item {{ 'is-active' if page.url == item.url }}" href="{{ item.url }}">{{ item.text }}</a>
+        </li>
+      {% endfor %}
+    </ul>
+  </nav>
+</header>

@@ -1,0 +1,125 @@
+body {
+    border: none;
+    background: #00f url('images/microfab.gif');
+    font-family: "Comic Sans", "Comic Sans MS", "Chalkboard", "ChalkboardSE-Regular", "Marker Felt" ,"Purisa", "URW Chancery L", cursive, sans-serif;
+    color: #FFFF00;
+
+    &::after {
+        content: none;
+    }
+}
+
+a {
+    color: #fff;
+
+    &:hover {
+        color: #fff;
+    }
+}
+
+.c-stripes-bottom, .c-stripes-top {
+    display: none;
+}
+
+h1 {
+    color: #f00;
+}
+
+h2 {
+    color: #6f0;
+}
+
+h3 {
+    color: #fc0;
+}
+
+.l-header {
+    background: #000;
+    border-bottom: 1px solid #d4d0c8;
+    box-shadow: 0 2px 0 #d4d0c8, 0 3px 0 #808080, 0 4px 0 #404040;
+}
+
+.c-logo {
+    margin: 10px;
+}
+
+.c-nav {
+    margin: 0;
+}
+
+.c-nav__nav-list {
+    background-color: #000;
+
+    > * {
+        margin: 0;
+        padding: 10px 20px;
+        border: 1px solid #e5e5e5;
+    }
+}
+
+.c-nav__nav-item.is-active::after {
+    content: none;
+}
+
+.c-home__title {
+    animation: blink 1s linear infinite;
+}
+
+@keyframes blink {
+    0%, 40%, 100% {
+        opacity: 0;
+    }
+
+    51%, 99% {
+        opacity: 1;
+    }
+}
+
+.c-cards__card {
+    background: #000 url('images/stars.gif');
+    border-radius: 0;
+}
+
+.c-home__projects-link {
+    svg {
+        display: none;
+    }
+
+    &::before {
+        content: "";
+        width: 60px;
+        height: 25px;
+        background-image: url("images/hot.gif");
+        background-repeat: no-repeat;
+    }
+}
+
+.c-footer__social {
+    justify-content: flex-start;
+}
+
+.c-footer__social-link {
+    height: auto;
+    width: auto;
+    background-color: transparent;
+
+    .u-sr-only {
+        position: static;
+        width: auto;
+        height: auto;
+    }
+
+    svg {
+        display: none;
+    }
+}
+
+.c-footer__copyright {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+    > * {
+        margin-left: 2px;
+    }
+}

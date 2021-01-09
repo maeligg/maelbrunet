@@ -1,0 +1,351 @@
+---
+layout: layouts/base
+title: 'Styleguide'
+---
+
+{% block head %}
+    <style>
+        .s-swatches {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(26rem, 1fr));
+            grid-gap: var(--spacing-md);
+        }
+
+        .s-color {
+            width: 100%;
+            height: var(--spacing-xl);
+            margin-bottom: var(--spacing-sm);
+        }
+
+        .s-specs {
+            margin-bottom: var(--spacing-sm);
+        }
+
+        .s-specs > * {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .s-swatches .s-specs > * {
+            justify-content: space-between;
+        }
+
+        .s-specs dt {
+            font-weight: bold;
+        }
+
+        .s-specs dd {
+            margin-left: var(--spacing-sm);
+        }
+
+        .s-spacing-scale {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: flex-end;
+            margin-bottom: var(--spacing-sm);
+        }
+
+        .s-spacing-scale > * {
+            margin-right: var(--spacing-xs);
+        }
+
+        .s-spacing-xxs, .s-spacing-xs, .s-spacing-sm, .s-spacing-md, .s-spacing-lg, .s-spacing-xl {
+            display: inline-block;
+            background-color: var(--color-primary);
+        }
+
+        .s-spacing-xxs {
+            height: var(--spacing-xxs);
+            width: var(--spacing-xxs);
+        }
+
+        .s-spacing-xs {
+            height: var(--spacing-xs);
+            width: var(--spacing-xs);
+        }
+
+        .s-spacing-sm {
+            height: var(--spacing-sm);
+            width: var(--spacing-sm);
+        }
+
+        .s-spacing-md {
+            height: var(--spacing-md);
+            width: var(--spacing-md);
+        }
+
+        .s-spacing-lg {
+            height: var(--spacing-lg);
+            width: var(--spacing-lg);
+        }
+
+        .s-spacing-xl {
+            height: var(--spacing-xl);
+            width: var(--spacing-xl);
+        }
+    </style>
+{% endblock %}
+{% block content %}
+    <section>
+        <h2>Colours</h2>
+        <ul class="s-swatches">
+            <li>
+                <h3 class="u-mb-0">Primary</h3>
+                <div class="s-color" style="background-color: var(--color-primary)"></div>
+                <dl>
+                    <div>
+                        <dt>Variable</dt>
+                        <dd><code>--color-primary</code></dd>
+                    </div>
+                    <div>
+                        <dt>Utility classes</dt>
+                        <dd><code>.u-color-primary, .u-bg-primary</code></dd>
+                    </div>
+                </dl>
+            </li>
+            <li>
+                <h3 class="u-mb-0">Primary dark</h3>
+                <div class="s-color" style="background-color: var(--color-primary-dark)"></div>
+                <dl>
+                    <div>
+                        <dt>Variable</dt>
+                        <dd><code>--color-primary-dark</code></dd>
+                    </div>
+                    <div>
+                        <dt>Utility classes</dt>
+                        <dd><code>.u-color-primary-dark, .u-bg-primary-dark</code></dd>
+                    </div>
+                </dl>
+            </li>
+            <li>
+                <h3 class="u-mb-0">Primary light</h3>
+                <div class="s-color" style="background-color: var(--color-primary-light)"></div>
+                <dl>
+                    <div>
+                        <dt>Variable</dt>
+                        <dd><code>--color-primary-light</code></dd>
+                    </div>
+                    <div>
+                        <dt>Utility classes</dt>
+                        <dd><code>.u-color-primary-light, .u-bg-primary-light</code></dd>
+                    </div>
+                </dl>
+            </li>
+            <li>
+                <h3 class="u-mb-0">Dark</h3>
+                <div class="s-color" style="background-color: var(--color-dark)"></div>
+                <dl>
+                    <div>
+                        <dt>Variable</dt>
+                        <dd><code>--color-dark</code></dd>
+                    </div>
+                    <div>
+                        <dt>Utility classes</dt>
+                        <dd><code>.u-color-dark, .u-bg-dark</code></dd>
+                    </div>
+                </dl>
+            </li>
+            <li>
+                <h3 class="u-mb-0">Grey</h3>
+                <div class="s-color" style="background-color: var(--color-grey)"></div>
+                <dl>
+                    <div>
+                        <dt>Variable</dt>
+                        <dd><code>--color-grey</code></dd>
+                    </div>
+                    <div>
+                        <dt>Utility classes</dt>
+                        <dd><code>.u-bg-grey</code></dd>
+                    </div>
+                </dl>
+            </li>
+            <li>
+                <h3 class="u-mb-0">Light</h3>
+                <div class="s-color" style="background-color: var(--color-light)"></div>
+                <dl>
+                    <div>
+                        <dt>Variable</dt>
+                        <dd><code>--color-light</code></dd>
+                    </div>
+                    <div>
+                        <dt>Utility classes</dt>
+                        <dd><code>.u-color-light, .u-bg-light</code></dd>
+                    </div>
+                </dl>
+            </li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Spacing</h2>
+
+        <div class="s-spacing-scale">
+            <div class="s-spacing-xxs"></div>
+            <div class="s-spacing-xs"></div>
+            <div class="s-spacing-sm"></div>
+            <div class="s-spacing-md"></div>
+            <div class="s-spacing-lg"></div>
+            <div class="s-spacing-xl"></div>
+        </div>
+
+        <h3 class="u-mb-0"><span class="s-spacing-xxs"></span> XXS : 2px</h3>
+        <dl class="s-specs">
+            <div>
+                <dt>Variable</dt>
+                <dd><code>--spacing-xxs</code></dd>
+            </div>
+            <div>
+                <dt>Utility classes</dt>
+                <dd><code>.u-mt-xxs, .u-mb-xxs, .u-m-xxs</code></dd>
+            </div>
+        </dl>
+
+        <h3 class="u-mb-0"><span class="s-spacing-xs"></span> XS : 6px</h3>
+        <dl class="s-specs">
+            <div>
+                <dt>Variable</dt>
+                <dd><code>--spacing-xs</code></dd>
+            </div>
+            <div>
+                <dt>Utility classes</dt>
+                <dd><code>.u-mt-xs, .u-mb-xs, .u-m-xs</code></dd>
+            </div>
+        </dl>
+
+        <h3 class="u-mb-0"><span class="s-spacing-sm"></span> SM : 12px</h3>
+        <dl class="s-specs">
+            <div>
+                <dt>Variable</dt>
+                <dd><code>--spacing-sm</code></dd>
+            </div>
+            <div>
+                <dt>Utility classes</dt>
+                <dd><code>.u-mt-sm, .u-mb-sm, .u-m-sm</code></dd>
+            </div>
+        </dl>
+
+        <h3 class="u-mb-0"><span class="s-spacing-md"></span> MD : 20px</h3>
+        <dl class="s-specs">
+            <div>
+                <dt>Variable</dt>
+                <dd><code>--spacing-md</code></dd>
+            </div>
+            <div>
+                <dt>Utility classes</dt>
+                <dd><code>.u-mt-md, .u-mb-md, .u-m-md</code></dd>
+            </div>
+        </dl>
+
+        <h3 class="u-mb-0"><span class="s-spacing-lg"></span> LG : 30px</h3>
+        <dl class="s-specs">
+            <div>
+                <dt>Variable</dt>
+                <dd><code>--spacing-lg</code></dd>
+            </div>
+            <div>
+                <dt>Utility classes</dt>
+                <dd><code>.u-mt-lg, .u-mb-lg, .u-m-lg</code></dd>
+            </div>
+        </dl>
+
+        <h3 class="u-mb-0"><span class="s-spacing-xl"></span> XL : 60px</h3>
+        <dl class="s-specs">
+            <div>
+                <dt>Variable</dt>
+                <dd><code>--spacing-xl</code></dd>
+            </div>
+            <div>
+                <dt>Utility classes</dt>
+                <dd><code>.u-mt-xl, .u-mb-xl, .u-m-xl</code></dd>
+            </div>
+        </dl>
+    </section>
+
+    <section>
+        <h2>Fonts</h2>
+
+        <h3 class="u-mb-0">Body</h3>
+        <p class="u-mb-md">System stack</p>
+
+        <h3 class="u-mb-0">Titles</h3>
+        <h2 class="u-mb-0 u-text-md">h1, h2 : Noto Serif bold</h2>
+        <h4>h3, h4, h5, h6 : Noto Serif regular</h4>
+    </section>
+
+    <section>
+        <h2>Text size</h2>
+
+        <p class="u-text-sm">Small text : 1.2rem / 12px</p>
+        <dl class="s-specs">
+            <div>
+                <dt>Variable</dt>
+                <dd><code>--text-sm</code></dd>
+            </div>
+            <div>
+                <dt>Utility classes</dt>
+                <dd><code>.u-text-sm</code></dd>
+            </div>
+        </dl>
+
+        <p class="u-text-md">Normal text : 1.6rem / 16px</p>
+        <dl class="s-specs">
+            <div>
+                <dt>Variable</dt>
+                <dd><code>--text-md</code></dd>
+            </div>
+            <div>
+                <dt>Utility classes</dt>
+                <dd><code>.u-text-md</code></dd>
+            </div>
+        </dl>
+
+        <p class="u-text-lg">Large text : 2.5rem / 25px</p>
+        <dl class="s-specs">
+            <div>
+                <dt>Variable</dt>
+                <dd><code>--text-lg</code></dd>
+            </div>
+            <div>
+                <dt>Utility classes</dt>
+                <dd><code>.u-text-lg</code></dd>
+            </div>
+        </dl>
+
+        <p class="u-text-xl">Extra large text : 3.5rem / 35px</p>
+        <dl class="s-specs">
+            <div>
+                <dt>Variable</dt>
+                <dd><code>--text-xl</code></dd>
+            </div>
+            <div>
+                <dt>Utility classes</dt>
+                <dd><code>.u-text-xl</code></dd>
+            </div>
+        </dl>
+
+        <p class="u-text-xxl">Max size text : 5rem / 50px</p>
+        <dl class="s-specs">
+            <div>
+                <dt>Variable</dt>
+                <dd><code>--text-xxl</code></dd>
+            </div>
+            <div>
+                <dt>Utility classes</dt>
+                <dd><code>.u-text-xxl</code></dd>
+            </div>
+        </dl>
+    </section>
+
+    <section>
+        <h2>Links</h2>
+
+        <div class="u-mb-xs"><a href="https://example.com/">A link</a></div>
+
+        <div class="u-bg-dark u-p-md">
+            <div class="u-mb-xs"><a class="c" href="https://example.com/">A link on a dark background</a></div>
+        </div>
+    </section>
+
+    
+
+{% endblock %}

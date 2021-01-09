@@ -1,0 +1,14 @@
+{% extends 'layouts/base.njk' %}
+
+{% block content %}
+<main>
+  <div class="l-container">
+    <h1>{{title}}</h1>
+
+    <div class="c-about__wrapper">
+        <img src="/images/maël.jpg" alt="Maël Brunet" class="c-about__picture">
+        
+        <div class="c-about__text">{{content | safe}}</div>
+    </div>
+</main>
+{% endblock %}

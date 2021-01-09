@@ -1,0 +1,39 @@
+.c-logo {
+    display: none;
+    margin: var(--spacing-md) 0 0 var(--spacing-xs);
+    font-size: var(--text-xxl);
+    font-weight: bold;
+    text-decoration: none;
+
+    @include mq(small) {
+        display: block;
+    }
+
+    &:hover {
+        color: var(--color-primary);
+
+        .c-logo__bracket:first-of-type {
+            transform: translateY(20px);
+        }
+
+        .c-logo__bracket:last-of-type {
+            transform: translateY(-20px);
+        }
+    }
+}
+
+.c-logo__bracket {
+    position: relative;
+    display: inline-block;
+    color: var(--color-dark);
+    transition: .2s ease-in-out;
+
+    &:first-of-type {
+        left: var(--spacing-xs);
+    }
+
+    &:last-of-type {
+        left: calc(var(--spacing-xs) * -1);
+        transition-delay: .2s;
+    }
+}
