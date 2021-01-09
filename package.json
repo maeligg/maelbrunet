@@ -18,7 +18,7 @@
     "prod:css": "sass src/scss/main.scss:src/_includes/css/main.css src/scss/geocities.scss:dist/geocities.css --style=compressed",
     "prod:js": "parcel build src/js/main.js",
     "prod:11ty": "eleventy",
-    "build": "npm-run-all --parallel prod:css prod:js prod:11ty"
+    "build": "npm-run-all prod:css prod:js prod:11ty"
   },
   "keywords": [],
   "author": "Maël Brunet",
