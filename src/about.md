@@ -15,4 +15,4 @@ I’ve done some full-stack work, but I specialise and focus on the **front-end*
 For more details about my professional experience, see my [resume](/resume) or find me on [LinkedIn](https://www.linkedin.com/in/ma%C3%ABl-brunet-b5876118/).
 <br/>
 <br/>
-This is my home on the web and portfolio for my side projects. The code for this website can be found on my [GitHub](https://github.com/maeligg).
+This is my home on the web and portfolio for my side projects. The code for this website can be found on my [GitHub](https://github.com/maeligg/maelbrunet).
