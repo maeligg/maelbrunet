@@ -1,5 +1,14 @@
 [
   {
+    "name": "Perpetual March 2020",
+    "publicationYear": "2020",
+    "category": "bot",
+    "thumbnail": "perpetual-march-2020.svg",
+    "description": "A Twitter bot posting today's date, from the month of March 2020",
+    "url": "https://twitter.com/march_2020_bot",
+    "code": "https://github.com/maeligg/perpetual-march-2020-bot"
+  },
+  {
     "name": "Trolley problem bot",
     "publicationYear": "2020",
     "category": "bot",
