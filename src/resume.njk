@@ -1,15 +1,16 @@
 ---
 layout: layouts/base
-title: 'Resume / CV'
+title: 'Maël Brunet - Resume / CV'
 ---
 
 {% block content %}
     <section>
         <p class="c-resume__notice-web">🖨️ This page is optimised for print️, click here to <a onclick="window.print()">print it or export it as a pdf</a>.</p>
-
-        <p class="u-print-only">🌐 This document is also available as a web page at <a href="{{ site.url }}resume">{{ site.url }}resume</a></p>
-
-        <p class="u-print-only">📧 maelbrunet@gmail.com</p>
+        
+        <div class="u-print-only">
+            <p>🌐 This document is also available as a web page at <a href="{{ site.url }}resume">{{ site.url }}resume</a></p>
+            <p>📧 maelbrunet@gmail.com</p>
+        </div>
     </section>
 
     <img src="/images/maël.jpg" alt="Maël Brunet" class="c-resume__picture u-print-only">
@@ -24,14 +25,13 @@ title: 'Resume / CV'
         <p>I feel that a good user interface is like a joke : you shouldn't have to explain it. I value simplicity and
         intuitiveness over complex and overly engineered solutions.</p>
 
-        <p>I see open communication, empathy and inclusivity as the essential parts of a well-functioning team. For
-        more information about myself, I invite you to have a look at my about page : <a href="{{ site.url }}/about">{{ site.url }}/about</a>.</p>
+        <p>I see open communication, empathy and inclusivity as the essential parts of a well-functioning team.</p>
     </section>
 
     <section>
         <h2>Skills</h2>
         <p>Looking for keywords ? I have project experience with the following tools and technologies :</p>
-        <p>Git, Bash, HTML, CSS, Sass, JavaScript (including ES6+), TypeScript, React, Redux, Vue, Jest, npm, Node, Webpack, Rollup, Parcel, Gulp, Babel, ESlint, Agile methodologies, ...</p>
+        <p>Git, Bash, HTML, CSS, Sass, JavaScript (including ES6+), TypeScript, React, Redux, Next, Gatsby, Vue, Jest, npm, Node, Webpack, Rollup, Parcel, Gulp, Babel, ESlint, Agile methodologies, ...</p>
     </section>
 
     <section>
@@ -46,7 +46,6 @@ title: 'Resume / CV'
                     I joined the Keytrade team to help build their <b>Design System</b>, serving multiple React-based projects developed across multiple teams. My responsibilities include :
                     <ul>
                         <li>Develop and deploy components to our internal npm repository.</li>
-                        <li>Ensure code quality through the use of unit tests, linting tools and systematic peer review.</li>
                         <li>Maintain the documentation of components using Storybook.</li>
                         <li>Help drive adoption of the shared components with good communication, clear versioning, ...</li>
                     </ul>
