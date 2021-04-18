@@ -5,20 +5,23 @@ media_folder: "src/images/project-thumbnails"
 public_folder: "/images/project-thumbnails"
 
 collections:
-  - name: "projects"
-    label: "Projects"
-    file: "src/_data/projects.json"
-    create: true
-    fields:
-      - {label: "Name", name: "name", widget: "string"}
-      - {label: "Publication date", name: "publicationYear", widget: "string"}
-      - widget: select
-        label: "Category"
-        name: "category"
-        multiple: false
-        create: false
-        options: ["website", "bot", "presentation", "script"]
-      - {label: "Thumbnail", name: "thumbnail", widget: "image"}
-      - {label: "Description", name: "description", widget: "text"}
-      - {label: "URL", name: "url", widget: "string"}
-      - {label: "Code", name: "code", widget: "string"}
+  - name: "data"
+    label: "Data"
+    files:
+      - name: "projects"
+        label: "Projects"
+        file: "src/_data/projects.json"
+        create: true
+        fields:
+          - {label: "Name", name: "name", widget: "string"}
+          - {label: "Publication date", name: "publicationYear", widget: "string"}
+          - widget: select
+            label: "Category"
+            name: "category"
+            multiple: false
+            create: false
+            options: ["website", "bot", "presentation", "script"]
+          - {label: "Thumbnail", name: "thumbnail", widget: "image"}
+          - {label: "Description", name: "description", widget: "text"}
+          - {label: "URL", name: "url", widget: "string"}
+          - {label: "Code", name: "code", widget: "string"}
