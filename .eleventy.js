@@ -3,6 +3,7 @@ module.exports = config => {
     config.addPassthroughCopy('src/css');
     config.addPassthroughCopy('src/images');
     config.addPassthroughCopy('src/fonts');
+    config.addPassthroughCopy('src/admin');
 
     config.setUseGitIgnore(false);
 
