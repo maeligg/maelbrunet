@@ -13,11 +13,11 @@ collections:
     - {label: "Name", name: "name", widget: "string"}
     - {label: "Publication date", name: "publicationYear", widget: "string"}
     - widget: select
-        label: "Category"
-        name: "category"
-        multiple: false
-        create: false
-        options: ["website", "bot", "presentation", "script"]
+      label: "Category"
+      name: "category"
+      multiple: false
+      create: false
+      options: ["website", "bot", "presentation", "script"]
     - {label: "Thumbnail", name: "thumbnail", widget: "image"}
     - {label: "Description", name: "description", widget: "text"}
     - {label: "URL", name: "url", widget: "string"}
