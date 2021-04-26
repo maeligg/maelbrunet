@@ -9,18 +9,18 @@
       <h2 class="c-home__subtitle">{{projectTitle}}</h2>
 
       <div class="c-cards">
-        {% for project in projects %}
+        {% for project in collections.projects | reverse %}
           {% if loop.index0 < 3 %}
             <div class="c-cards__card">
-              <a href="{{ project.url }}" class="c-cards__card-link">
-                <div class="u-sr-only">{{ project.name }}</div><img src="/images/project-thumbnails/{{project.thumbnail}}" alt="{{ project.title }}" class="c-cards__card-thumbnail"></a>
+              <a href="{{ project.data.url }}" class="c-cards__card-link">
+                <div class="u-sr-only">{{ project.data.name }}</div><img src="/images/project-thumbnails/{{project.data.thumbnail}}" alt="{{ project.data.name }}" class="c-cards__card-thumbnail"></a>
               <div class="c-cards__card-info-wrapper">
                 <h3 class="c-cards__card-title">
-                  <a href="{{ project.url }}">{{ project.name }}</a>
+                  <a href="{{ project.data.url }}">{{ project.data.name }}</a>
                 </h3>
-                <p class="c-cards__card-description">{{ project.description | safe }}</p>
-                {% if project.code %}
-                  <a href="{{ project.code }}">Code</a>
+                <p class="c-cards__card-description">{{ project.templateContent | safe }}</p>
+                {% if project.data.code %}
+                  <a href="{{ project.data.code }}">Code</a>
                 {% endif %}
               </div>
             </div>

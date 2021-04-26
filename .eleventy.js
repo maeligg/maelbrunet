@@ -1,3 +1,5 @@
+const util = require('util');
+
 module.exports = config => {
     config.addPassthroughCopy({ public: './' });
     config.addPassthroughCopy('src/css');
@@ -9,6 +11,10 @@ module.exports = config => {
 
     config.addFilter('dateToYear', function (date) {
         return date.getFullYear();
+    });
+
+    config.addFilter('console', function(value) {
+        return util.inspect(value);
     });
 
     return {
