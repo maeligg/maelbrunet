@@ -15,9 +15,8 @@
 }
 
 .c-home__projects-link {
+    margin-bottom: var(--spacing-xl);
     display: block;
-    grid-column-start: 1;
-    grid-column-end: 4;
     text-align: center;
     font-size: var(--text-lg);
     font-weight: bold;

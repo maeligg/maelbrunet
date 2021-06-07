@@ -1,12 +1,17 @@
 .c-cards {
     margin-bottom: var(--spacing-xl);
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(30rem, 1fr));
-    grid-gap: var(--spacing-md);
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--spacing-md);
+}
+
+.c-cards--home {
+    margin-bottom: var(--spacing-md);
 }
 
 .c-cards__card {
-    max-width: 550px;
+    flex: 1 1 0;
+    min-width: 300px;
     padding: var(--spacing-md);
     background-color: var(--color-light);
     border-radius: 6px;

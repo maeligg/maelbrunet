@@ -8,7 +8,7 @@
 
       <h2 class="c-home__subtitle">{{projectTitle}}</h2>
 
-      <div class="c-cards">
+      <div class="c-cards c-cards--home">
         {% for project in collections.projects | reverse %}
           {% if loop.index0 < 3 %}
             <div class="c-cards__card">
@@ -25,9 +25,8 @@
             </div>
           {% endif %}
         {% endfor %}
-        
-        <a href="/projects/" class="c-home__projects-link">More projects</a>
       </div>
+      <a href="/projects/" class="c-home__projects-link">More projects</a>
     </div>
   </main>
 {% endblock %}
