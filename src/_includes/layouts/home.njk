@@ -13,16 +13,15 @@
           {% if loop.index0 < 3 %}
             <div class="c-cards__card">
               <a href="{{ project.data.url }}" class="c-cards__card-link">
-                <div class="u-sr-only">{{ project.data.name }}</div><img src="/images/project-thumbnails/{{project.data.thumbnail}}" alt="{{ project.data.name }}" class="c-cards__card-thumbnail"></a>
-              <div class="c-cards__card-info-wrapper">
-                <h3 class="c-cards__card-title">
-                  <a href="{{ project.data.url }}">{{ project.data.name }}</a>
-                </h3>
-                <p class="c-cards__card-description">{{ project.templateContent | safe }}</p>
-                {% if project.data.code %}
-                  <a href="{{ project.data.code }}">Code</a>
-                {% endif %}
-              </div>
+                <div class="u-sr-only">{{ project.data.name }}</div><img src="/images/project-thumbnails/{{project.data.thumbnail}}" alt="{{ project.data.name }}" class="c-cards__card-thumbnail">
+              </a>
+              <h3 class="c-cards__card-title">
+              <a href="{{ project.data.url }}">{{ project.data.name }}</a>
+              </h3>
+              <div class="c-cards__card-description">{{ project.templateContent | safe }}</div>
+              {% if project.data.code %}
+                <a href="{{ project.data.code }}">Code</a>
+              {% endif %}
             </div>
           {% endif %}
         {% endfor %}

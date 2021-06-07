@@ -3,17 +3,11 @@
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(30rem, 1fr));
     grid-gap: var(--spacing-md);
-
-    @include mq(small) {
-        grid-template-columns: repeat(auto-fill, minmax(36rem, 1fr));
-    }
 }
 
 .c-cards__card {
     max-width: 550px;
     padding: var(--spacing-md);
-    display: flex;
-    flex-wrap: wrap;
     background-color: var(--color-light);
     border-radius: 6px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
@@ -24,13 +18,12 @@
 }
 
 .c-cards__card-link {
-    flex-shrink: 0;
-    align-items: flex-start;
+    float: left;
+    margin: 0 var(--spacing-md) var(--spacing-md) 0;
 }
 
 .c-cards__card-thumbnail {
     width: 80px;
-    margin: 0 var(--spacing-md) var(--spacing-md) 0;
 }
 
 .c-cards__card-title {
@@ -43,8 +36,6 @@
     display: flex;
     flex-direction: column;
 }
-
 .c-cards__card-description {
-    flex-grow: 1;
     margin-bottom: var(--spacing-sm);
 }

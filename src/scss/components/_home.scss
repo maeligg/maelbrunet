@@ -15,9 +15,10 @@
 }
 
 .c-home__projects-link {
-    display: flex;
-    justify-content: center;
-    padding: var(--spacing-md);
+    display: block;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    text-align: center;
     font-size: var(--text-lg);
     font-weight: bold;
 }
