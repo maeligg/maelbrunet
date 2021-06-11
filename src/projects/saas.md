@@ -1,5 +1,5 @@
 ---
-name: Screaming As A Service
+title: Screaming As A Service
 date: 2020-10-31
 category: website
 thumbnail: /images/project-thumbnails/saas.jpg

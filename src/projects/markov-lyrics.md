@@ -1,5 +1,5 @@
 ---
-name: Markov Lyrics bot
+title: Markov Lyrics bot
 date: 2018-06-09
 category: script
 thumbnail: /images/project-thumbnails/markov-lyrics-bot.svg

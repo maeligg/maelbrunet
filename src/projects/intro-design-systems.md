@@ -1,5 +1,5 @@
 ---
-name: An introduction to design systems
+title: An introduction to design systems
 date: 2017-07-01
 category: presentation
 thumbnail: /images/project-thumbnails/design-systems.svg

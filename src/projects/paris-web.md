@@ -1,5 +1,5 @@
 ---
-name: Trucs et astuces pour construire une Single Page App accessible
+title: Trucs et astuces pour construire une Single Page App accessible
 date: 2020-10-01
 category: presentation
 thumbnail: /images/project-thumbnails/paris-web.jpg

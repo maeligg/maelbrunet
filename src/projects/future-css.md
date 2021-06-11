@@ -1,5 +1,5 @@
 ---
-name: The future of CSS
+title: The future of CSS
 date: 2017-08-01
 category: presentation
 thumbnail: /images/project-thumbnails/future-css.jpg

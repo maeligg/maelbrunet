@@ -1,5 +1,5 @@
 ---
-name: Sprout
+title: Sprout
 date: 2019-10-24
 category: website
 thumbnail: /images/project-thumbnails/sprout.jpg

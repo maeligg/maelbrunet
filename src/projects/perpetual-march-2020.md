@@ -1,5 +1,5 @@
 ---
-name: Perpetual March 2020
+title: Perpetual March 2020
 date: 2021-01-01
 category: bot
 thumbnail: /images/project-thumbnails/perpetual-march-2020.svg

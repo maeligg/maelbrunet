@@ -1,5 +1,5 @@
 ---
-name: What if paintings
+title: What if paintings
 date: 2018-09-01
 category: bot
 thumbnail: /images/project-thumbnails/what-if-paintings.jpg

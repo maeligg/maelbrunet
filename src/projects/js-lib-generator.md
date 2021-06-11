@@ -1,5 +1,5 @@
 ---
-name: JavaScript Library Generator
+title: JavaScript Library Generator
 date: 2017-08-16
 category: bot
 thumbnail: /images/project-thumbnails/js-lib-generator.png

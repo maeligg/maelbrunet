@@ -1,5 +1,5 @@
 ---
-name: The Guardian 1959
+title: The Guardian 1959
 date: 2018-01-29
 category: website
 thumbnail: /images/project-thumbnails/guardian-1959.png

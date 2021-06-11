@@ -1,5 +1,5 @@
 ---
-name: Dewi Origami
+title: Dewi Origami
 date: 2018-05-21
 category: website
 thumbnail: /images/project-thumbnails/dewi-origami.svg

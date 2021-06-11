@@ -1,5 +1,5 @@
 ---
-name: Pimp my Marmiton
+title: Pimp my Marmiton
 date: 2019-10-01
 category: bot
 thumbnail: /images/project-thumbnails/pimp-my-marmiton.png

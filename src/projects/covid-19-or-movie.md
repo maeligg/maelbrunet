@@ -1,5 +1,5 @@
 ---
-name: COVID-19 or Movie ?
+title: COVID-19 or Movie ?
 date: 2020-04-19
 category: website
 thumbnail: /images/project-thumbnails/covid-19-or-movie.png

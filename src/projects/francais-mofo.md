@@ -1,5 +1,5 @@
 ---
-name: Français MOFO
+title: Français MOFO
 date: 2017-11-13
 category: bot
 thumbnail: /images/project-thumbnails/francais-mofo.jpg

@@ -32,8 +32,8 @@ title: 'Projects'
             {% for project in collections.projects | reverse %}
                 {% if project.data.category == category.name %}
                     <div class="c-cards__card">
-                        <a href="{{ project.data.url }}" class="c-cards__card-link"><div class="u-sr-only">{{ project.data.name }}</div><img src="{{project.data.thumbnail}}" alt="{{ project.data.name }}" class="c-cards__card-thumbnail"></a>
-                        <h3 class="c-cards__card-title"><a href="{{ project.data.url }}">{{ project.data.name }}</a></h3>
+                        <a href="{{ project.data.url }}" class="c-cards__card-link"><div class="u-sr-only">{{ project.data.title }}</div><img src="{{project.data.thumbnail}}" alt="{{ project.data.title }}" class="c-cards__card-thumbnail"></a>
+                        <h3 class="c-cards__card-title"><a href="{{ project.data.url }}">{{ project.data.title }}</a></h3>
                         <div class="c-cards__card-description">{{ project.templateContent | safe }}</div>
                         {% if project.data.code %}
                             <a href="{{ project.data.code }}">Code</a>

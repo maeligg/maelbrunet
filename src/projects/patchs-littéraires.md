@@ -1,5 +1,5 @@
 ---
-name: Patchs littéraires
+title: Patchs littéraires
 date: 2017-08-01
 category: bot
 thumbnail: /images/project-thumbnails/patchs-litteraires.jpg

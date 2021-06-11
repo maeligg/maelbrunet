@@ -1,5 +1,5 @@
 ---
-name: Responsive tables 101
+title: Responsive tables 101
 date: 2019-10-24
 category: presentation
 thumbnail: /images/project-thumbnails/responsive-tables-101.png

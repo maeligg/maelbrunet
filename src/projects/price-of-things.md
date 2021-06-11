@@ -1,5 +1,5 @@
 ---
-name: The price of things
+title: The price of things
 date: 2018-03-05
 category: bot
 thumbnail: /images/project-thumbnails/price-of-things.png

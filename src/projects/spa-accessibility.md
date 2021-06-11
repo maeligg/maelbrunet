@@ -1,5 +1,5 @@
 ---
-name: Tips & tricks for building accessible SPAs
+title: Tips & tricks for building accessible SPAs
 date: 2020-01-23
 category: presentation
 thumbnail: /images/project-thumbnails/spa-accessibility.svg

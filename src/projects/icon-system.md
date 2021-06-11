@@ -1,5 +1,5 @@
 ---
-name: In search of the ideal icon system
+title: In search of the ideal icon system
 date: 2017-11-01
 category: presentation
 thumbnail: /images/project-thumbnails/icon-system.png

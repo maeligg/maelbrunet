@@ -1,5 +1,5 @@
 ---
-name: Every pumpkin
+title: Every pumpkin
 date: 2019-10-31
 category: bot
 thumbnail: /images/project-thumbnails/every-pumpkin.jpg

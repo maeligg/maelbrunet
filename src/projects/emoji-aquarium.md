@@ -1,5 +1,5 @@
 ---
-name: Emoji aquarium
+title: Emoji aquarium
 date: 2020-05-26
 category: website
 thumbnail: /images/project-thumbnails/emoji-aquarium.png

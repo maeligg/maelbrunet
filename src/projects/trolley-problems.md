@@ -1,5 +1,5 @@
 ---
-name: Trolley problem bot
+title: Trolley problem bot
 date: 2020-12-13
 category: bot
 thumbnail: /images/project-thumbnails/trolley-problems.jpg

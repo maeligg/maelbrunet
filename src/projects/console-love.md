@@ -1,5 +1,5 @@
 ---
-name: console.love
+title: console.love
 date: 2018-10-18
 category: website
 thumbnail: /images/project-thumbnails/console-love.png

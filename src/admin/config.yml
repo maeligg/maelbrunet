@@ -9,8 +9,9 @@ collections:
     label: "Projects"
     folder: "src/projects"
     create: true
+    slug: "{{slug}}"
     fields:
-      - {label: "Name", name: "name", widget: "string"}
+      - {label: "Title", name: "title", widget: "string"}
       - {label: "Date", name: "date", widget: "datetime"}
       - widget: select
         label: "Category"
