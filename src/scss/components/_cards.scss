@@ -12,6 +12,7 @@
 .c-cards__card {
     flex: 1 1 0;
     min-width: 300px;
+    max-width: 540px;
     padding: var(--spacing-md);
     background-color: var(--color-light);
     border-radius: 6px;
