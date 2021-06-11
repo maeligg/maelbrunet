@@ -2,7 +2,7 @@
 name: An introduction to design systems
 date: 2017-07-01
 category: presentation
-thumbnail: design-systems.svg
+thumbnail: /images/project-thumbnails/design-systems.svg
 url: https://slides.com/maelig/design-systems
 ---
 

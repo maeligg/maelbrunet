@@ -2,7 +2,7 @@
 name: Patchs littéraires
 date: 2017-08-01
 category: bot
-thumbnail: patchs-litteraires.jpg
+thumbnail: /images/project-thumbnails/patchs-litteraires.jpg
 url: https://twitter.com/patchslitt
 ---
 

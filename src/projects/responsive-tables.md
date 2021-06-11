@@ -2,7 +2,7 @@
 name: Responsive tables 101
 date: 2019-10-24
 category: presentation
-thumbnail: responsive-tables-101.png
+thumbnail: /images/project-thumbnails/responsive-tables-101.png
 url: https://slides.com/maelig/responsive-tables-101
 ---
 

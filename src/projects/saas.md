@@ -2,7 +2,7 @@
 name: Screaming As A Service
 date: 2020-10-31
 category: website
-thumbnail: saas.jpg
+thumbnail: /images/project-thumbnails/saas.jpg
 url: https://screaming-as-a-service.vercel.app/
 ---
 

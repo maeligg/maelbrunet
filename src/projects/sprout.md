@@ -2,7 +2,7 @@
 name: Sprout
 date: 2019-10-24
 category: website
-thumbnail: sprout.jpg
+thumbnail: /images/project-thumbnails/sprout.jpg
 url: https://sprout.maelbrunet.com
 code: https://github.com/maeligg/sprout
 ---

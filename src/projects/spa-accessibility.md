@@ -2,7 +2,7 @@
 name: Tips & tricks for building accessible SPAs
 date: 2020-01-23
 category: presentation
-thumbnail: spa-accessibility.svg
+thumbnail: /images/project-thumbnails/spa-accessibility.svg
 url: https://slides.com/maelig/web-apps-a11y
 ---
 

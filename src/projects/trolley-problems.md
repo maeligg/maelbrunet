@@ -2,7 +2,7 @@
 name: Trolley problem bot
 date: 2020-12-13
 category: bot
-thumbnail: trolley-problems.jpg
+thumbnail: /images/project-thumbnails/trolley-problems.jpg
 url: https://twitter.com/trolley_bot/
 code: https://github.com/maeligg/trolley-problem-bot/
 ---

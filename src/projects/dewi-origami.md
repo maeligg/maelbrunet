@@ -2,7 +2,7 @@
 name: Dewi Origami
 date: 2018-05-21
 category: website
-thumbnail: dewi-origami.svg
+thumbnail: /images/project-thumbnails/dewi-origami.svg
 url: https://dewiorigami.com
 code: https://github.com/maeligg/dewiorigamiV2
 ---

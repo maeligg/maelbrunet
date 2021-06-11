@@ -2,7 +2,7 @@
 name: The future of CSS
 date: 2017-08-01
 category: presentation
-thumbnail: future-css.jpg
+thumbnail: /images/project-thumbnails/future-css.jpg
 url: http://slides.com/maelig/the-future-of-css
 ---
 

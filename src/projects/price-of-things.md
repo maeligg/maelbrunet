@@ -2,7 +2,7 @@
 name: The price of things
 date: 2018-03-05
 category: bot
-thumbnail: price-of-things.png
+thumbnail: /images/project-thumbnails/price-of-things.png
 url: https://twitter.com/relativeprices
 code: https://github.com/maeligg/relative-prices-bot
 ---

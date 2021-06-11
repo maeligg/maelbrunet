@@ -2,7 +2,7 @@
 name: Rejected yoshi prototypes
 date: 2020-07-28
 category: bot
-thumbnail: rejected-yoshis.png
+thumbnail: /images/project-thumbnails/rejected-yoshis.png
 url: https://twitter.com/rejected_yoshis/
 code: https://github.com/maeligg/yoshi-generator/
 ---

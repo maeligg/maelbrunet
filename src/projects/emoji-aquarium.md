@@ -2,7 +2,7 @@
 name: Emoji aquarium
 date: 2020-05-26
 category: website
-thumbnail: emoji-aquarium.png
+thumbnail: /images/project-thumbnails/emoji-aquarium.png
 url: https://emoji-aquarium.netlify.app
 code: https://github.com/maeligg/emoji-aquarium
 ---

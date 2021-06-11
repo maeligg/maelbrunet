@@ -2,7 +2,7 @@
 name: Markov Lyrics bot
 date: 2018-06-09
 category: script
-thumbnail: markov-lyrics-bot.svg
+thumbnail: /images/project-thumbnails/markov-lyrics-bot.svg
 url: https://twitter.com/BotB2o
 code: https://github.com/maeligg/markov-lyrics-bot
 ---

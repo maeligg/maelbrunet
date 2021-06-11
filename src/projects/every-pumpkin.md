@@ -2,7 +2,7 @@
 name: Every pumpkin
 date: 2019-10-31
 category: bot
-thumbnail: every-pumpkin.jpg
+thumbnail: /images/project-thumbnails/every-pumpkin.jpg
 url: https://twitter.com/EveryPumpkin
 code: https://cheapbotsdonequick.com/source/EveryPumpkin
 ---
