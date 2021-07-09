@@ -51,6 +51,10 @@ a {
     }
 }
 
+p + p {
+    margin-top: var(--spacing-sm);
+}
+
 .u-bg-dark a {
     color: var(--color-light);
 
@@ -67,7 +71,7 @@ a {
       background: none;
     }
   
-    header, footer, .c-stripes-bottom, .c-stripes-top {
+    body::after, header, footer, .c-stripes-bottom, .c-stripes-top {
       display: none !important;
     }
 

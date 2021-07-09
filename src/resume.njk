@@ -5,6 +5,8 @@ title: 'Maël Brunet - Resume / CV'
 
 {% block content %}
     <section>
+        <img src="/images/maël.jpg" alt="Maël Brunet" class="c-resume__picture u-print-only">
+
         <p class="c-resume__notice-web">🖨️ This page is optimised for print️, click here to <a onclick="window.print()">print it or export it as a pdf</a>.</p>
         
         <div class="u-print-only">
@@ -13,13 +15,10 @@ title: 'Maël Brunet - Resume / CV'
         </div>
     </section>
 
-    <img src="/images/maël.jpg" alt="Maël Brunet" class="c-resume__picture u-print-only">
-
     <section>
         <h2>About me</h2>
-        <p>I'm a web developer with a focus on front-end development, based in
-        Brussels (Belgium). I'm highly proficient in the technologies that are at core of the modern web experience :
-        HTML, CSS and JavaScript. I also have an interest and attention to design, accessibility and performance. I believe that very strong knowledge of these foundations is essential to being a
+        <p>I'm a web developer with a focus on the front-end, based in
+        Brussels (Belgium). I'm highly proficient in the technologies that are at core of the modern web experience : HTML, CSS and JavaScript. I also have an interest and attention to design, accessibility and performance. I believe that very strong knowledge of these foundations is essential to being a
         good front-end developer, and everything else can be learned as needed.</p>
 
         <p>I feel that a good user interface is like a joke : you shouldn't have to explain it. I value simplicity and
@@ -31,7 +30,7 @@ title: 'Maël Brunet - Resume / CV'
     <section>
         <h2>Skills</h2>
         <p>Looking for keywords ? I have project experience with the following tools and methodologies :</p>
-        <p>Git, Bash, HTML, CSS, Sass, JavaScript (including ES6+), TypeScript, React, Redux, Next, Gatsby, Vue, Jest, npm, Node, Webpack, Rollup, Parcel, Gulp, Babel, ESlint, Agile methodologies, content modelling, ...</p>
+        <p>Bash, Git, HTML, CSS, Sass, JavaScript (including ES6+), TypeScript, React, Redux, Next, Gatsby, Vue, GraphQL, Jest, Node, Webpack, Rollup, Parcel, Gulp, Babel, ESlint, CI/CD principles, Gitlab CI, decoupled architectures & headless CMS, content modelling, Agile methodologies, ...</p>
     </section>
 
     <section>
@@ -43,12 +42,22 @@ title: 'Maël Brunet - Resume / CV'
                     <p>Feb 2019 - Now</p>
                 </div>
                 <div>
-                    I joined the Keytrade team to help build their <b>Design System</b>, serving multiple React-based projects developed across multiple teams. My responsibilities include :
+                    <p>I joined the Keytrade team to help build their new <b>design system</b>, serving multiple React-based projects developed across multiple teams. My responsibilities include :</p>
                     <ul>
                         <li>Develop and deploy components to our internal npm repository.</li>
                         <li>Maintain the documentation of components using Storybook.</li>
-                        <li>Help drive adoption of the shared components with good communication, clear versioning, ...</li>
+                        <li>Help drive adoption of design system and improve the developer & designer collaboration.</li>
                     </ul>
+                    <p>I also worked on other projects at Keytrade, including a complete redesign of the public website using Gatsby and Contentful.</p>
+                </div>
+            </li>
+            <li class="c-resume__work-xp">
+                <div class="c-resume__work-xp-meta">
+                    <b><a href="https://hackyourfuture.be/">Hack Your Future</a></b>
+                    <p>April 2019 - Now</p>
+                </div>
+                <div>
+                    <p>Hack Your Future (part of Open Knowledge Belgium) is an 8 months bootcamp to help refugees in Belgium build digital & soft skills for a career in web development. I'm helping out as a <b>mentor</b> for newly graduated students, and since 2020 also the lead <b>coach</b> of the module "Debugging JavaScript".</p>
                 </div>
             </li>
             <li class="c-resume__work-xp">
@@ -57,9 +66,9 @@ title: 'Maël Brunet - Resume / CV'
                     <p>Jan 2018 - Feb 2019</p>
                 </div>
                 <div>
-                    I joined Isabel Group as a <b>front-end developer</b> and <b>UI specialist</b>. Isabel Group is Belgium's largest fintech, providing banking
+                    <p>I joined Isabel Group as a <b>front-end developer</b> and <b>UI chapter lead</b>. Isabel Group is Belgium's largest fintech, providing banking
                     services like Isabel 6, Zoomit and CodaBox to companies of all sizes. Part of a small team reporting
-                    directly to the CTO, I worked on a variety of projects, including :
+                    directly to the CTO, I worked on a variety of projects, including :</p>
                     <ul>
                         <li>I created and maintained a design system to share UI components across multiple projects, based on Vue, Storybook and npm packages.</li>
                         <li>I launched and lead a UI "Community of Practice", gathering designers and developers from all teams
@@ -73,9 +82,9 @@ title: 'Maël Brunet - Resume / CV'
                     <p>Jan 2016 - Dec 2017</p>
                 </div>
                 <div>
-                    I joined Emakina as a <b>front-end developer</b>, where I worked on a range of different technologies and frameworks
+                    <p>I joined Emakina as a <b>front-end developer</b>, where I worked on a range of different technologies and frameworks
                     for some great brands like Ouibus, D'Ieteren, Deutsche Bank, Federale Assurance, ... Notable projects I was
-                    involved with include :
+                    involved with include :</p>
                     <ul>
                         <li>A complete redesign of the <a href="https://www.federale.be">Federale Assurance</a>
                         website, running on a new platform and including an application to find the nearest Federale office. I
@@ -90,13 +99,13 @@ title: 'Maël Brunet - Resume / CV'
                     <p>May 2012 - Dec 2015</p>
                 </div>
                 <div>
-                    I was <b>policy officer</b> and <b>webmaster</b> for OpenForum Europe (OFE), a not-for-profit industry organisation aiming to accelerate and broaden the use of Open Source Software among businesses, consumers and governments.
+                    <p>I was <b>policy officer</b> and <b>webmaster</b> for OpenForum Europe (OFE), a not-for-profit industry organisation aiming to accelerate and broaden the use of Open Source Software among businesses, consumers and governments.</p>
                 </div>
             </li>
         </ul>
     </section>
 
-    <section class="c-resume__education-and-languages">
+    <section>
         <div>
             <h2>Education</h2>
             <ul class="c-resume__education">
@@ -129,15 +138,14 @@ title: 'Maël Brunet - Resume / CV'
                 </li>
             </ul>
         </div>
-
-        <div>
-            <h2>Languages</h2>
-            <ul>
-                <li>French (native)</li>
-                <li>English (bilingual)</li>
-                <li>Dutch (beginner)</li>
-                <li>Spanish (intermediate)</li>
-            </ul>
-        </div>
+    </section>
+    <section>
+        <h2>Languages</h2>
+        <ul>
+            <li>French (native)</li>
+            <li>English (bilingual)</li>
+            <li>Dutch (beginner)</li>
+            <li>Spanish (intermediate)</li>
+        </ul>
     </section>
 {% endblock %}
