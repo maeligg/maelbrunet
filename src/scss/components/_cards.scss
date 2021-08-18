@@ -1,8 +1,8 @@
 .c-cards {
     margin-bottom: var(--spacing-xl);
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
     gap: var(--spacing-md);
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 
 .c-cards--home {
