@@ -1,26 +1,35 @@
 <footer class="c-footer">
   <nav>
-      <ul class="c-footer__social">
-          <li><a href="https://twitter.com/maelb" class="c-footer__social-link">
-            <span class="u-sr-only">Twitter</span>
-            {% include "icons/twitter.svg" %}
-          </a></li>
-          <li><a href="https://github.com/maeligg" class="c-footer__social-link">
-            <span class="u-sr-only">Github</span>
-            {% include "icons/github.svg" %}
-          </a></li>
-          <li><a href="https://www.linkedin.com/in/ma%C3%ABl-brunet-b5876118/" class="c-footer__social-link">
-            <span class="u-sr-only">Linkedin</span>
-            {% include "icons/linkedin.svg" %}
-          </a></li>
-          <li><a class="c-footer__social-link c-footer__email js-email" data-email="maelbrunet@gmail.com">
-            <span class="u-sr-only">Email : maelbrunet@gmail.com</span>
-            {% include "icons/email.svg" %}
-          </a></li>
-      </ul>
+    <ul class="c-footer__social">
+      <li>
+        <a href="https://mastodon.social/@maelig" class="c-footer__social-link">
+          <span class="u-sr-only">Mastodon</span>
+          {% include "icons/mastodon.svg" %}
+        </a>
+      </li>
+      <li>
+        <a href="https://github.com/maeligg" class="c-footer__social-link">
+          <span class="u-sr-only">Github</span>
+          {% include "icons/github.svg" %}
+        </a>
+      </li>
+      <li>
+        <a href="https://www.linkedin.com/in/ma%C3%ABl-brunet-b5876118/" class="c-footer__social-link">
+          <span class="u-sr-only">Linkedin</span>
+          {% include "icons/linkedin.svg" %}
+        </a>
+      </li>
+      <li>
+        <a class="c-footer__social-link c-footer__email js-email" data-email="maelbrunet@gmail.com">
+          <span class="u-sr-only">Email : maelbrunet@gmail.com</span>
+          {% include "icons/email.svg" %}
+        </a>
+      </li>
+    </ul>
   </nav>
 
   <div class="c-footer__copyright">
-    <p >&copy; Maël Brunet {{ site.buildTime | dateToYear }}<span class="c-footer__easter-egg"> - type "geocities" anywhere for a vintage relooking</span></p>
+    <p >&copy; Maël Brunet {{ site.buildTime | dateToYear }}
+      <span class="c-footer__easter-egg"> - type "geocities" anywhere for a vintage relooking</span></p>
   </div>
 </footer>
