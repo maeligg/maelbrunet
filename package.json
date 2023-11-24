@@ -4,6 +4,8 @@
   "description": "The personal website of Maël Brunet, web developer",
   "devDependencies": {
     "@11ty/eleventy": "^0.11.1",
+    "@tinacms/cli": "^1.5.36",
+    "@types/node": "^20.10.0",
     "npm-run-all": "^4.1.5",
     "parcel": "^2.2.1",
     "sass": "^1.32.0"
@@ -20,5 +22,8 @@
   },
   "keywords": [],
   "author": "Maël Brunet",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "tinacms": "^1.5.26"
+  }
 }

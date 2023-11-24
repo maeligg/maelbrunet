@@ -6,3 +6,4 @@ node_modules
 dist
 src/_includes/css/*
 src/css/*
+.env
