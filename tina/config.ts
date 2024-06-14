@@ -21,7 +21,7 @@ export default defineConfig({
   },
   media: {
     tina: {
-      mediaRoot: 'images',
+      mediaRoot: 'images/project-thumbnails',
       publicFolder: 'dist',
     },
   },
