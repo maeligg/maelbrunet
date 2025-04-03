@@ -3,7 +3,7 @@ title: The Guardian 1959
 date: 2018-01-29
 category: website
 thumbnail: /images/project-thumbnails/guardian-1959.png
-url: https://guardian1959.netlify.com
+url: https://guardian1959.netlify.app/
 code: https://github.com/maeligg/guardian-1959
 ---
 
